@@ -1,15 +1,9 @@
+<script setup>
+import { counter } from '@/stores/CounterStore'
+</script>
 <template>
-  <div class="contact">
+  <div>
     <h1>This is a contact page</h1>
+    <p>We are accessing counter across different pages ({{ counter.count }})</p>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .contact {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
