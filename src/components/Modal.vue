@@ -21,10 +21,7 @@ defineProps({
       @click.self="$emit('close')"
       class="fixed inset-0 bg-black bg-opacity-60 text-black grid place-items-center"
     >
-      <div
-        v-show="show"
-        class="bg-white rounded-xl py-4 p-8 max-w-96 w-[80vw]"
-      >
+      <div v-show="show" class="bg-white rounded-xl py-4 p-8 max-w-96 w-[80vw]">
         <header v-if="$slots.header" class="font-bold text-xl mb-4">
           <slot name="header" />
         </header>
