@@ -1,5 +1,7 @@
 <script setup>
-import { counter } from '@/stores/CounterStore'
+import { useCounterStore } from '@/stores/CounterStore'
+
+let counter = useCounterStore()
 </script>
 <template>
   <div>
