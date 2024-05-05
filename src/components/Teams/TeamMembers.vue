@@ -18,6 +18,7 @@ let team = useTeamStore()
         :name="member.name"
         :email="member.email"
         :status="member.status"
+        :key="member.id"
       />
     </tbody>
   </table>
