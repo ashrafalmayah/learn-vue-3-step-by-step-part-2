@@ -34,7 +34,7 @@ const router = createRouter({
       path: '/team',
       name: 'team',
       component: () => TeamView
-    },
+    }
   ]
 })
 

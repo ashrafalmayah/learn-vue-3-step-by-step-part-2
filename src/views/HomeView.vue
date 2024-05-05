@@ -6,7 +6,7 @@ let textareaValue = ref('Hi there')
 </script>
 
 <template>
-  <main> 
+  <main>
     <TabbableTextarea v-model="textareaValue" style="width: 100%; height: 300px" />
   </main>
 </template>

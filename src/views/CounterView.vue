@@ -5,7 +5,9 @@ let counter = useCounterStore()
 <template>
   <div class="contact">
     <h1>Count is {{ counter.count }}</h1>
-    <button class="button" :disabled="! counter.remaining" @click="counter.increament">Increament ( {{ counter.remaining }} remaining)</button>
+    <button class="button" :disabled="!counter.remaining" @click="counter.increament">
+      Increament ( {{ counter.remaining }} remaining)
+    </button>
   </div>
 </template>
 
